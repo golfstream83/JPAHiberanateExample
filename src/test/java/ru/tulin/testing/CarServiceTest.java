@@ -68,6 +68,7 @@ public class CarServiceTest {
         System.out.println(car2);
     }
 
+    @Test
     public void testGetAll(){
         Car car1 = new Car();
         car1.setName("Lexus");
